@@ -1,0 +1,45 @@
+.button {
+    -fx-background-radius: 45 0 0 45;
+    -fx-background-color:  #616161;
+    -fx-transition-duration: 5s;
+}
+.button:hover{
+    -fx-background-color: #7C4DFF;
+    -fx-pref-width: 200px;
+    -fx-transition-duration: 5s;
+}
+.text-field {
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: #616161;
+    -fx-text-fill: aliceblue;
+}
+.label{
+    -fx-text-fill: aliceblue;
+}
+.check-box{
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: #212121;
+    -fx-text-fill: aliceblue;
+}
+.choice-box{
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: #616161;
+    -fx-text-fill: aliceblue;
+}
+.choice-box .menu-item > .label{
+    -fx-text-fill: aliceblue;
+}
+.choice-box .menu-item {
+    -fx-background-color: #616161;
+    -fx-background-radius: 0 0 0 0;
+}
+.choice-box .context-menu {
+    -fx-background-color: #616161;
+    -fx-background-radius: 0 0 0 0;
+}
+.choice-box .menu-item:focused{
+    -fx-background-color: #7C4DFF;
+}
+.root{
+    -fx-background-color: #212121;
+}
